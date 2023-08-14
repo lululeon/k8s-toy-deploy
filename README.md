@@ -11,7 +11,9 @@ This project uses the [node-info](https://www.npmjs.com/package/node-info) proje
 - eksctl installed
 
 ## :rocket: Quest
-Have fun crossing the following milestones with this tiny repo as your resource for yaml files and the applicationdockerfile.
+Have fun crossing the following milestones with this tiny repo as your resource for yaml files and the application dockerfile.
+Your quest is to try and meet the pre-requisites, and read a little about kubernetes in order to figure out how to:
+
 ```
 - build and tag the docker image
 - push it to an image registry (we assume ECR, but you're actually free to use whatever you want)
@@ -21,6 +23,6 @@ Have fun crossing the following milestones with this tiny repo as your resource 
 - deploy the application (`deployment.yml`) - don't forget to update to the correct url for your docker image!
 - Hit up the endpoint exposed by the LB!
 - Clean up to avoid AWS charges
-
+```
 
 Enjoy!
